@@ -17,8 +17,8 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         String result = getIntent().getExtras().getString("result");
-        textView = findViewById(R.id.result);
-        close = findViewById(R.id.close);
+        textView = findViewById(R.id.policies);
+        close = findViewById(R.id.export);
 
 
         textView.setText(result);
